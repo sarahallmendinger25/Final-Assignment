@@ -1,10 +1,39 @@
 body{
-    background-color: #d0d0d0;
+    background-color: #f2efef;
+    margin: 10px;
 }
 .nav-link{
-    background-color: rgb(109, 101, 117);
+    background-color: rgb(135, 36, 36);
+    color: antiquewhite;
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
-h1{
+.card-title{
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#head-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-shadow: 0px 3px 3px rgb(145, 60, 60);
+}
+
+nav li{
+    padding: 1px;
+    
+    color: antiquewhite;
+    
+}
+nav li :hover{
+    background-color: rgb(230, 65, 65);
+    transform: scale(1.1);
+}
+.nav-link :hover{
+    transform: scale(1.5);
+}
+
+#recjumbtext{
+    text-shadow: 2px 1px 0px black;
 }
